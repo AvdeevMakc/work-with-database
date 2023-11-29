@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper {}
+
+[class*="__container"] {
+    max-width: 1087px;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgb(238, 237, 237);
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.page__container {
+    margin-bottom: 30px;
+}
+
+#userList {
+    display: flex;
+    justify-content: space-around
+}
+
+#userList div {
+    border: 1px solid #000;
+    padding-top: 5px;
+}
+
+#userList p {
+    color: rgb(94, 85, 1)
+}
+
+#choosePage p {
+    margin: 10px 0;
+}
+
+#choosePage {
+    margin-bottom: 10px;
+}
+
+#userList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table {
+    border: 1px solid black;
+
+}
+
+th {
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.list-users__container {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.border {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.border p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#show {
+    padding: 10px;
+    background: rgb(139, 122, 207);
+    border-radius: 8%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+select {
+    border: 1px solid #000;
+    padding: 7px 15px;
+}
+
+.users__container {
+    padding-bottom: 30px;
+}
+
+.users__show-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#outputResume {
+    background: rgb(213, 213, 213);
+    height: 200px;
+    padding: 25px;
+}
+
+#outputResume li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}

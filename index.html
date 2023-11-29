@@ -1,0 +1,122 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/null.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <template id="users-report">
+        <tr>
+            <td>{{name}}</td>
+            <td>{{age}}</td>
+            <td>{{gender}}</td>
+            <td>{{city}}</td>
+        </tr>
+    </template>
+    <div class="wrapper">
+        <h1>API tests</h1>
+
+        <div class="page__container">
+            <div id="choosePage">
+                <p>Choose page</p>
+                <a href="#" data-page="1">Page 1 </a><a href="#" data-page="2">Page 2</a>
+            </div>
+
+            <div id="userList"></div>
+        </div>
+
+        <div class="users__container">
+            <button id="show">show users</button>
+            <select name="#" id="usersFilter">
+                <option value="1">All users</option>
+                <option value="2">Only men</option>
+                <option value="3">Only women</option>
+                <option value="4">People from Kyiv</option>
+            </select>
+            <button id="showResume">show resume</button>
+            <div class="users__show-container">
+                <div id="outputUsers"></div>
+                <div class="users__resume">
+                    <h3 class="users__text">Result</h3>
+                    <ul id="outputResume"></ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="mustache.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    <hr />
+    <img id="bigImage" width="400px" src="https://reqres.in/img/faces/1-image.jpg" /></li>
+    <hr />
+
+    <div>
+        <a href="#">Only mens</a>
+        <a href="#">Only womens</a>
+        <a href="#">Only people from Kyiv</a>
+        <a href="#">Show all</a>
+    </div>
+    <table style="border: solid 1px;" id="studenList">
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>Anton</td>
+            <td>Kyiv</td>
+            <td>22</td>
+            <td>Male</td>
+            <td><input type="button" value="Remove" /></td>
+        </tr>
+        <tr>
+            <td>Ivan</td>
+            <td>Kyiv</td>
+            <td>22</td>
+            <td>Male</td>
+            <td><input type="button" value="Remove" /></td>
+        </tr>
+    </table>
+    <div id="summary">
+        <div><span style="font-weight: bold;">City Kyiev:</span> 4 students</div>
+        <div><span style="font-weight: bold;">City Dnipro:</span> 3 students</div>
+        <div><span style="font-weight: bold;">City Odessa:</span> 2 students</div>
+        <div><span style="font-weight: bold;">Girls:</span> 8</div>
+        <div><span style="font-weight: bold;">Boys:</span> 12</div>
+        <div><span style="font-weight: bold;">Average age:</span> 36</div>
+        <div><span style="font-weight: bold;">Longest name:</span> Antuan</div>
+    </div> -->
